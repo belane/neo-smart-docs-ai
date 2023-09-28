@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+html,
+body,
+[class*="css"] {
+    font-family: 'Nunito Sans';
+}
+
+#neo-smart-docs .css-10trblm {
+    font-family: 'Work Sans' !important;
+}
+
+#MainMenu, footer {
+    visibility: hidden;
+}
+
+.css-16mquoe {
+    visibility: hidden;
+}
+
+a:link, a:visited  {
+    color: #00af92;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0068c9;
+    text-decoration: none;
+}
+
+.css-156wq0i p {
+    color: black;
+}
+
+.block-container,
+.css-1544g2n {
+    padding-top: 30px
+}
+
+.stButton button {
+    background-color: #00e599;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    margin-top: -4px;
+}
+
+.stButton button:hover {
+    background-color: #00af92;
+}
+
+.red4secBrand div {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0.2;
+    filter: alpha(opacity=50);
+    transition: 0.3s;
+}
+
+.red4secBrand a {
+    color: black;
+    text-decoration: none;
+}
+
+.red4secBrand div:hover,
+.red4secBrand div:active,
+.red4secBrand div:focus {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
