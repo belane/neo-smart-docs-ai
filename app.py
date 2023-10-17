@@ -31,17 +31,6 @@ st.markdown('''
     </div>
     ''', unsafe_allow_html=True)
 
-# Analytics
-components.html('''
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCB1KGDPEW"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-TCB1KGDPEW');
-    </script>
-    ''')
-
 # Headings
 l, center, r = st.columns(3)
 with center:
