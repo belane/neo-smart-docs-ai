@@ -39,6 +39,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(parsed_docs)} docs')
 
 print('# Processing Neo Dev documentation')
 client = GithubRepositoryReader(
@@ -74,6 +75,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(parsed_docs)} docs')
 
 print('# Processing Neo Proposals')
 client = GithubRepositoryReader(
@@ -100,6 +102,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(parsed_docs)} docs')
 
 print('# Processing neo-mamba documentation')
 client = GithubRepositoryReader(
@@ -123,6 +126,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(parsed_docs)} docs')
 
 print('# Processing neow3j documentation')
 client = GithubRepositoryReader(
@@ -152,6 +156,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(parsed_docs)} docs')
 
 print('# Processing neon-js documentation')
 client = GithubRepositoryReader(
@@ -175,6 +180,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(parsed_docs)} docs')
 
 print('# Processing neo-boa documentation')
 doc_urls = [
@@ -189,6 +195,7 @@ for i, doc in enumerate(docs):
     doc.extra_info = { 'file_path': doc_urls[i] }
 # Add to document library
 documents += docs
+print(f'  Parsed {len(docs)} docs')
 
 print('# Processing neo-go documentation')
 client = GithubRepositoryReader(
@@ -212,6 +219,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(parsed_docs)} docs')
 
 print('# Processing neofs documentation')
 doc_urls = [
@@ -229,6 +237,7 @@ for i, doc in enumerate(docs):
     doc.extra_info = { 'file_path': doc_urls[i] }
 # Add to document library
 documents += docs
+print(f'  Parsed {len(docs)} docs')
 
 print('# Processing NeoLine dAPI documentation')
 doc_urls = [
@@ -240,6 +249,7 @@ for i, doc in enumerate(docs):
     doc.extra_info = { 'file_path': doc_urls[i] }
 # Add to document library
 documents += docs
+print(f'  Parsed {len(docs)} docs')
 
 print('# Processing WalletConnect SDK documentation')
 doc_urls = [
@@ -272,6 +282,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(docs) + len(parsed_docs)} docs')
 
 print('# Processing Neo modules documentation')
 client = GithubRepositoryReader(
@@ -295,6 +306,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(docs)} docs')
 
 print('# Processing neo-worknet documentation')
 client = GithubRepositoryReader(
@@ -315,6 +327,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(docs)} docs')
 
 print('# Processing neo-express documentation')
 client = GithubRepositoryReader(
@@ -341,6 +354,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(docs)} docs')
 
 print('# Processing neo-debugger documentation')
 client = GithubRepositoryReader(
@@ -367,6 +381,7 @@ for doc in docs:
     del doc.extra_info['file_name']
 # Add to document library
 documents += parsed_docs
+print(f'  Parsed {len(docs)} docs')
 
 print('# Generate Index storage')
 # Construct a simple vector index
