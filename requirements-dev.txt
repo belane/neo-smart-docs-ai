@@ -1,3 +1,0 @@
-llama-hub==0.0.4
-notebook
-trafilatura
