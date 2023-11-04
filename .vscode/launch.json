@@ -12,5 +12,13 @@
             "args": [ "run", "app.py" ],
             "justMyCode": false
         },
+        {
+            "name": "Ingest",
+            "type": "python",
+            "request": "launch",
+            "program": "ingest.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
     ]
 }
