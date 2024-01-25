@@ -1,3 +1,3 @@
-llama-hub==0.0.4
+llama-hubt>=0.0.67
 notebook
 trafilatura
